@@ -1,0 +1,235 @@
+
+* upload completely sent off: 251 out of 251 bytes
+< HTTP/1.1 200 OK
+< Server: Server
+< Date: Tue, 14 Feb 2017 21:51:08 GMT
+< Content-Type: text/xml
+< Content-Length: 7026
+< Connection: keep-alive
+< x-mws-quota-max: 80.0
+< x-mws-quota-remaining: 80.0
+< x-mws-quota-resetsOn: 2017-02-14T22:16:00.000Z
+< X-Amz-Date: Tue, 14 Feb 2017 21:51:08 GMT
+< Vary: Accept-Encoding,User-Agent
+< x-amzn-Authorization: AAA SignedHeaders=X-Amz-Date, identity=com.amazon.aaa.FrpAndromedaReportsPlugin.AndromedaControlService.amzn1.aaa.id.qhz3ylg755gkejyk5sh44qm3wy.Default/1, Signed=true, Encrypted=false, Signature=lyS0zfCFh8vaRaFgla1XS8C6SxjA9wPMXVrko5AbzeA=, Algorithm=HmacSHA256
+< x-mws-request-id: d3fa0135-7c79-4c59-9106-703153197b49
+< x-mws-timestamp: 2017-02-14T21:51:08.658Z
+< x-mws-response-context: vC1zjLmdxtJuFxrpBZWmLVH9FU9HDuTVgPpBOWeZuDfO7UnsXS0vo9eXPPW/hwMdskpSWqsypMM=
+< 
+* Connection #0 to host mws.amazonservices.com left intact
+Service Response
+=============================================================================
+        GetReportRequestListResponse
+            GetReportRequestListResult
+                NextToken
+                    8xYUgH3S4m72jpZedg0wbVuY6vtoszFEZOqio09ONz5yoRAqsdLE5Sg8RwbCs5uKGUy5CXwdXMZxrBy2GCH8wRQh2fiIpIYDDM8JC38mcVYKpDlSOD6IHhoEuUk+2nq/Hr0JzP5TiJ7NTpawOoWHrMEdGa/hVKYEVwrHjELkHcJRMdAjeo1d90wuPLxFSWjwrFhvd4Ov2VRetoY4qbaMvgM3Ak2EcoTpiz6IlERWn587+3otyJBmL3L8BaP2FlnCm4eTBGUCe9m3LLoF6MZIU5hwyZyGMDR6g1OENQAiQctdcrwNkadvWuC7ozKxEVED28hnztPmgYPYT5Fk8MhdNuF1UQfIp6oAsdQsy6YY2fX87JQgthvOr5QbwzSxp79//hl2lYe6g7M=
+                HasNext
+                    1
+                ReportRequestInfo
+                    ReportRequestId
+                        50344017211
+                    ReportType
+                        _GET_FLAT_FILE_ORDERS_DATA_
+                    StartDate
+                        2017-02-14T21:42:10Z
+                    EndDate
+                        2017-02-14T21:42:10Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2017-02-14T21:42:10Z
+                    ReportProcessingStatus
+                        _CANCELLED_
+                    StartedProcessingDate
+                        2017-02-14T21:42:16Z
+                    CompletedDate
+                        2017-02-14T21:42:22Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50343017211
+                    ReportType
+                        _GET_CONVERGED_FLAT_FILE_SOLD_LISTINGS_DATA_
+                    StartDate
+                        2017-02-14T21:28:43Z
+                    EndDate
+                        2017-02-14T21:28:43Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2017-02-14T21:28:43Z
+                    ReportProcessingStatus
+                        _CANCELLED_
+                    StartedProcessingDate
+                        2017-02-14T21:28:48Z
+                    CompletedDate
+                        2017-02-14T21:28:54Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50342017211
+                    ReportType
+                        _GET_CONVERGED_FLAT_FILE_SOLD_LISTINGS_DATA_
+                    StartDate
+                        2017-02-14T21:26:58Z
+                    EndDate
+                        2017-02-14T21:26:58Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2017-02-14T21:26:58Z
+                    ReportProcessingStatus
+                        _CANCELLED_
+                    StartedProcessingDate
+                        2017-02-14T21:27:02Z
+                    CompletedDate
+                        2017-02-14T21:27:10Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50331017200
+                    ReportType
+                        _GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_
+                    StartDate
+                        2017-01-20T20:46:47Z
+                    EndDate
+                        2017-02-03T20:46:49Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2017-02-03T21:11:48Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        4141864685017200
+                    StartedProcessingDate
+                        2017-02-03T21:11:48Z
+                    CompletedDate
+                        2017-02-03T21:11:48Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50322017186
+                    ReportType
+                        _GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_
+                    StartDate
+                        2017-01-06T20:46:40Z
+                    EndDate
+                        2017-01-20T20:46:47Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2017-01-20T21:11:45Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        4004931125017186
+                    StartedProcessingDate
+                        2017-01-20T21:11:45Z
+                    CompletedDate
+                        2017-01-20T21:11:45Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50310017172
+                    ReportType
+                        _GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_
+                    StartDate
+                        2016-12-23T20:49:05Z
+                    EndDate
+                        2017-01-06T20:46:40Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2017-01-06T21:12:16Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        3875747257017172
+                    StartedProcessingDate
+                        2017-01-06T21:12:16Z
+                    CompletedDate
+                        2017-01-06T21:12:16Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50306017164
+                    ReportType
+                        _GET_MERCHANT_LISTINGS_DATA_BACK_COMPAT_
+                    StartDate
+                        2016-12-29T16:39:28Z
+                    EndDate
+                        2016-12-29T16:39:28Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2016-12-29T16:39:28Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        3796359452017164
+                    StartedProcessingDate
+                        2016-12-29T16:39:32Z
+                    CompletedDate
+                        2016-12-29T16:39:39Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50304017158
+                    ReportType
+                        _GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_
+                    StartDate
+                        2016-12-09T20:48:46Z
+                    EndDate
+                        2016-12-23T20:49:05Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2016-12-23T21:14:42Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        3748092543017158
+                    StartedProcessingDate
+                        2016-12-23T21:14:42Z
+                    CompletedDate
+                        2016-12-23T21:14:42Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50296017144
+                    ReportType
+                        _GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_
+                    StartDate
+                        2016-12-09T20:18:39Z
+                    EndDate
+                        2016-12-09T20:48:46Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2016-12-09T21:13:52Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        3611848680017144
+                    StartedProcessingDate
+                        2016-12-09T21:13:52Z
+                    CompletedDate
+                        2016-12-09T21:13:52Z
+                ReportRequestInfo
+                    ReportRequestId
+                        50295017144
+                    ReportType
+                        _GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_
+                    StartDate
+                        2016-11-25T20:18:32Z
+                    EndDate
+                        2016-12-09T20:18:39Z
+                    Scheduled
+                        
+                    SubmittedDate
+                        2016-12-09T20:40:32Z
+                    ReportProcessingStatus
+                        _DONE_
+                    GeneratedReportId
+                        3609400128017144
+                    StartedProcessingDate
+                        2016-12-09T20:40:32Z
+                    CompletedDate
+                        2016-12-09T20:40:32Z
+            ResponseMetadata
+                RequestId
+                    d3fa0135-7c79-4c59-9106-703153197b49
+            ResponseHeaderMetadata: RequestId: d3fa0135-7c79-4c59-9106-703153197b49, ResponseContext: vC1zjLmdxtJuFxrpBZWmLVH9FU9HDuTVgPpBOWeZuDfO7UnsXS0vo9eXPPW/hwMdskpSWqsypMM=, Timestamp: 2017-02-14T21:51:08.658Z
